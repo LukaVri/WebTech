@@ -1,0 +1,108 @@
+body {
+    background-image: url("../images/websiteachtergrond.png");
+}
+
+a {
+    text-decoration: none;
+    color: #AAABB8;
+}
+
+a:hover {
+    color: #29648A;
+}
+
+.text {
+    padding: 125px;
+}
+
+h1, h2, p, ol, ul {
+    font-family: "Roboto Light", sans-serif;
+    color: white;
+    margin-bottom: 0.7em;
+
+
+}
+
+.links:link {
+    color: chartreuse;
+}
+
+.Menu {
+
+    display: flex;
+    background-color: rgba(71, 72, 102, 0.5);
+    padding: 20px;
+    justify-content: space-around;
+    color: black;
+}
+
+.Menu> div {
+
+    width: 100px;
+    text-align: center;
+}
+
+.Menu > div:hover {
+    background: #AAABB8;
+
+
+}
+header{
+    display: flex;
+    background-color: rgba(71, 72, 102, 0.5);
+    padding: 20px;
+    justify-content: space-around;
+    color: black;
+}
+head>div{
+    width: 100px;
+    text-align: center
+
+}
+header > div:hover {
+    background: #AAABB8;
+
+
+}
+header img:first-child{
+    align-self: flex-start;
+    padding 0px;
+    max-width: 10px;
+
+}
+
+.fotos {
+    width: auto;
+    height: auto;
+    max-width: 100px;
+}
+
+.titel {
+    text-align: center;
+    background-color: #464866;
+
+}
+form{
+
+    display: inline;
+    border: 2px solid black;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    background-color: white;
+
+
+}
+label{
+
+    width: 25%;
+    align-self: flex-start;
+
+
+}
+.contact{
+    margin: 2em auto;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}

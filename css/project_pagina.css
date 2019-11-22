@@ -1,0 +1,12 @@
+p,h1,h2{
+    display: flex;
+    margin: 20px 100px;
+    min-width: 10px;
+
+
+}
+img{
+    max-width: 250px;
+    margin: 20px 100px;
+
+}

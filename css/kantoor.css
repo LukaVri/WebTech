@@ -1,0 +1,33 @@
+img {
+    width: 100%;
+    max-width: 300px;
+    min-width: 100px;
+    vertical-align: bottom;
+    margin-right: 50px;
+
+}
+
+.textenplaatjes {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    min-width: 50px;
+    background: rgba(37, 39, 77, 0.5);
+    padding: 50px;
+}
+
+.textenplaatjes img {
+    flex-grow: 0;
+    flex-shrink: 0;
+
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: brown;
+    }
+}
